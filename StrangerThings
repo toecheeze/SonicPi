@@ -1,0 +1,23 @@
+use_bpm 168
+
+use_synth :prophet
+with_fx :distortion do
+  live_loop :main do
+    play :C3
+    sleep 0.6
+    play :e3
+    sleep 0.6
+    play :g3
+    sleep 0.6
+    play :b3
+    sleep 0.6
+    play :c4
+    sleep 0.6
+    play :b3
+    sleep 0.6
+    play :g3
+    sleep 0.6
+    play :e3
+    sleep 0.6
+  end
+end
