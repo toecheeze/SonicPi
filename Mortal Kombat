@@ -1,0 +1,42 @@
+#ChallengeH
+use_bpm 120
+use_synth :chiplead
+
+
+define :measure do |a, b|
+  play a
+  play b
+  sleep 0.5
+end
+measure :a4,:a5
+measure :a4,:a5
+measure :c5,:c6
+measure :a4,:a5
+measure :d5,:d6
+measure :a4,:a5
+measure :e5,:e6
+measure :d5,:d6
+measure :c5,:c6
+measure :c5,:c6
+measure :e5,:e6
+measure :c5,:c6
+measure :g5,:g6
+measure :c4,:c5
+measure :e5,:e6
+measure :c4,:c5
+measure :g4,:g5
+measure :g4,:g5
+measure :b4,:b5
+measure :g4,:g5
+measure :c5,:c6
+measure :g4,:g5
+measure :d5,:d6
+measure :c5,:c6
+measure :f4,:f5
+measure :f4,:f5
+measure :a4,:a5
+measure :f4,:f5
+measure :c5,:c6
+measure :f4,:f5
+measure :c5,:c6
+measure :b4,:b5
