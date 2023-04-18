@@ -1,7 +1,9 @@
 #NOT COMPLETED 
+
 #TOO MANY NIGHTS BY METRO BOOMIN
 use_bpm 145
 
+travis = "C:/Users/Madelyn Barragan/Desktop/straight_up.wav"
 notes = [:f5, :g5, :f5, :g5, :a5]
 s = [5,5,5,2.69,2]
 sus = [4,4,4,2,1]
@@ -20,6 +22,27 @@ live_loop :repeat do
   sleep 0.5
 end
 
+sample travis
+
+#paramterized function
+define :four_notes do |n|
+  play n
+  sleep 1
+  play n
+  sleep 1
+  play n
+  sleep 1
+  play n
+  sleep 1
+end
+3.times do
+  four_notes :a5, :g5, :b5, :a5
+  3.times do
+    four_notes :c5, :a5, :b5, :a5
+  end
+  end 
+  
+  
   
   3.times do
     3.times do
